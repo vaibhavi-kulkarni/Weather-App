@@ -1,9 +1,13 @@
 .InfoBox {
-    text-align : center;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Full width */
+    margin-top:10px;
 }
 
-.cardContainer {
-    display : flex;
-    justify-content :center;
-    margin :10px;
+.InfoBox button {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Full width */
 }
+

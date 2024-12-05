@@ -56,7 +56,7 @@ export default function SearchBox({ updateWeather }) {
                 />
                 <br />
                 <br />
-                <Button type="submit" variant="contained">
+                <Button className="SearchBox" type="submit" variant="contained">
                     Search
                 </Button>
             </form>
