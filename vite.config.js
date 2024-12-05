@@ -8,4 +8,11 @@ export default defineConfig({
     host: true,  // To expose the app publicly on Render
   },
   plugins: [react()],
+  define: {
+    'process.env.NODE_ENV': '"production"', // Set the environment variable
+  },
+  build: {
+    minify: 'terser', // Ensures minification
+    sourcemap: false, // Disable sourcemaps for production (optional)
+  },
 })

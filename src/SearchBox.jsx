@@ -5,7 +5,7 @@ import './SearchBox.css';
 
 export default function SearchBox({ updateWeather }) {
     let [city, setCity] = useState("");
-    const api_url = "http://api.openweathermap.org/data/2.5/weather";
+    const api_url = "https://api.openweathermap.org/data/2.5/weather";
     const api_token = import.meta.env.VITE_API_TOKEN;
 
     const hot_url = "https://images.pexels.com/photos/35778/tree-avenue-back-light-sun.jpg";
